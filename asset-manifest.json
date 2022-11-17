@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/todo-list/static/css/main.35a35d52.css",
+    "main.js": "/todo-list/static/js/main.9fa9cf4f.js",
+    "static/media/AbhayaLibre-SemiBold.ttf": "/todo-list/static/media/AbhayaLibre-SemiBold.48aaef083d682d8f28e1.ttf",
+    "static/media/Actor-Regular.ttf": "/todo-list/static/media/Actor-Regular.15d692218d9ada8ff090.ttf",
+    "static/media/settings-dark.png": "/todo-list/static/media/settings-dark.d77ce9ae080ef7be6f6f.png",
+    "static/media/settings-light.svg": "/todo-list/static/media/settings-light.0d4a92e75a089eb95b6aa86e2744d329.svg",
+    "static/media/day-active-light.svg": "/todo-list/static/media/day-active-light.a137197f1b75081b1f96850fa84ad70b.svg",
+    "static/media/check-inactive-day-light.svg": "/todo-list/static/media/check-inactive-day-light.62a2bdbd33050e9d458e02801ee66428.svg",
+    "index.html": "/todo-list/index.html",
+    "static/media/cross-checkout.svg": "/todo-list/static/media/cross-checkout.feb5e6558f94dd3df09f.svg",
+    "static/media/check-active-checkbox.svg": "/todo-list/static/media/check-active-checkbox.e3c6639b75663eda952a.svg",
+    "static/media/line-blue.svg": "/todo-list/static/media/line-blue.a19e7f62191a00e7b304f1296476c559.svg",
+    "static/media/line-inactive.svg": "/todo-list/static/media/line-inactive.c9b539cb111ca52cd94e2f94aed893d1.svg",
+    "static/media/line-red.svg": "/todo-list/static/media/line-red.a80435ed4fed26ac9e299e6656d7c5fc.svg",
+    "static/media/line-yellow.svg": "/todo-list/static/media/line-yellow.7e53fe16f74721a612059a3b125e6e35.svg",
+    "main.35a35d52.css.map": "/todo-list/static/css/main.35a35d52.css.map",
+    "main.9fa9cf4f.js.map": "/todo-list/static/js/main.9fa9cf4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.35a35d52.css",
+    "static/js/main.9fa9cf4f.js"
+  ]
+}
