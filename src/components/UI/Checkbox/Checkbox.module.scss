@@ -1,0 +1,113 @@
+.checkbox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &Settings {
+    margin: 0 0 0 50px;
+  }
+
+  &Switch {
+    position: relative;
+    display: inline-block;
+    width: 51px;
+    height: 30px;
+
+    &__Slider {
+      position: absolute;
+      cursor: pointer;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: #366EFF;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    &__Slider:before {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      content: "";
+      height: 26px;
+      width: 26px;
+      left: 4px;
+      bottom: 4px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    &__SliderActive:before {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      height: 26px;
+      width: 26px;
+      left: -4px;
+      bottom: 2px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    &__SliderInactive:before {
+      position: absolute;
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      height: 26px;
+      width: 26px;
+      left: 3px;
+      bottom: 2px;
+      background-color: white;
+      -webkit-transition: .4s;
+      transition: .4s;
+    }
+
+    &__SliderTask_Active:before {
+      content: url('../../../assets/img/check-active-checkbox.svg');
+    }
+
+    &__SliderTask_Inactive:before {
+      content: url('../../../assets/img/cross-checkout.svg');
+    }
+
+    &__SliderTask_Active:before, &__SliderTask_Inactive:before {
+      @-moz-document url-prefix() {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+
+    &__Slider {
+      border-radius: 34px;
+    }
+
+    &__Slider:before {
+      border-radius: 50%;
+    }
+
+    input:checked + &__Slider {
+      background-color: #10C200;
+    }
+
+    input:focus + &__Slider {
+      box-shadow: 0 0 1px #10C200;
+    }
+
+    input:checked + &__Slider:before {
+      -webkit-transform: translateX(26px);
+      -ms-transform: translateX(26px);
+      transform: translateX(26px);
+    }
+  }
+
+  &Switch input {
+    display:none;
+  }
+}

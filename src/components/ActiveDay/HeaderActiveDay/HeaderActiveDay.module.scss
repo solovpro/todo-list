@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  align-items: center;
+  margin: 0 0 10px 15px;
+  animation-name: appearance;
+  animation-duration: 1.3s;
+  &Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &__Content {
+      border-radius: 25px;
+      background-color: #CCC;
+    }
+  }
+  &Text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    margin: 0 0 0 10px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    &__Dark {
+      color: rgba(255, 255, 255, 0.6);
+    }
+    &__Light {
+      color: rgba(0, 0, 0, 0.6);
+    }
+    &:hover {
+      opacity: .3;
+      transition: all 0.4s ease;
+    }
+  }
+}
+
+@keyframes appearance {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+  100% {
+    visibility: inherit;
+    opacity: 1;
+  }
+}

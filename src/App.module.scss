@@ -1,0 +1,49 @@
+.container {
+  margin: 0;
+  padding: 30px 0;
+  &Dark {
+    color: #F4F4F4;
+    background-color: #222;
+  }
+  &Light {
+    color: #222;
+    background-color: #CCC;
+  }
+}
+
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  flex-flow: column;
+  border: 1px solid #EEE;
+  background: #282828;
+  width: 350px;
+  border-radius: 25px;
+  padding: 13px 20px 0;
+  z-index: 5;
+  animation-name: appearance;
+  animation-duration: 2s;
+  &Dark {
+    border: 1px solid #EEE;
+    background: #282828;
+  }
+  &Light {
+    border: 1px solid #222;
+    background: #CCC;
+  }
+  @media (max-width: 400px) {
+    width: 250px;
+    padding: 13px 0 0 0;
+  }
+}
+
+@keyframes appearance {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
