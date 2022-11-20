@@ -15,7 +15,7 @@ import lineRed from './assets/img/line-red.svg';
 import s from './App.module.scss';
 
 function App() {
-   const [darkTheme, setDarkTheme] = useState(true);
+   const [darkTheme, setDarkTheme] = useState(true); // Состояние темы
    const [settings, setSettings] = useState(false); // Состояние настроек
    const [addPost, setAddPost] = useState(false); // Состояние добавление поста
    // Массив данных о заданиях

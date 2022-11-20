@@ -6,7 +6,7 @@ import s from './Checkbox.module.scss';
 // Переключатель выполненного / невыполненного задания и темы
 function Checkbox({
    onChange = () => {
-      console.log('onChange is null');
+      console.log('onChange in Checkbox.jsx is null');
    },
    checked = false,
    name = 'settings',

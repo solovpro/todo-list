@@ -11,7 +11,7 @@ import s from './HeaderActiveDay.module.scss';
 // Шапка открытого дня
 function HeaderActiveDay({
    setDataContainer = () => {
-      console.log('setDataContainer is null');
+      console.log('setDataContainer in HeaderActiveDay.jsx is null');
    },
    darkTheme = true,
    day = {},

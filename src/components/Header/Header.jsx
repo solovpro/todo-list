@@ -8,7 +8,7 @@ import s from './Header.module.scss';
 // Шапка приложения
 function Header({
    setSettings = () => {
-      console.log('setSettings is null');
+      console.log('setSettings in Header.jsx is null');
    },
    settings = false,
    darkTheme = true,

@@ -5,12 +5,15 @@
 [![Header](https://github.com/solovpro/todo-list/raw/master/src/assets/img/app-readme.png)](https://solovpro.github.io/todo-list/)
 
 ### Небольшое todo приложение с:
+<div align="start">
 
 ```sh
 $ css-animation
 $ сменой темы
 $ и другими интересными функционалами
 ```
+
+</div>
 
 ### Стек технологий:
 ![HTML5](https://img.shields.io/badge/-HTML5-A9A9A9?style=for-the-badge&logo=HTML5)

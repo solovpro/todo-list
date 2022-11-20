@@ -14,13 +14,13 @@ import s from './AddPost.module.scss';
 // Форма добавления поста
 function AddPost({
    setDataContainer = () => {
-      console.log('setDataContainer is null');
+      console.log('setDataContainer in AddPost.jsx is null');
    },
    setAddPost = () => {
-      console.log('setAddPost is null');
+      console.log('setAddPost in AddPost.jsx is null');
    },
    setData = () => {
-      console.log('setData is null');
+      console.log('setData in AddPost.jsx is null');
    },
    darkTheme = true,
    data = {},

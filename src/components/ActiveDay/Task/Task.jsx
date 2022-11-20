@@ -8,7 +8,7 @@ import s from './Task.module.scss';
 // Задание в открытом дне
 function Task({
    setDataContainer = () => {
-      console.log('setDataContainer is null');
+      console.log('setDataContainer in Task.jsx is null');
    },
    darkTheme = true,
    task = {},
@@ -53,7 +53,6 @@ function Task({
             checked={task?.active}
             name='task'
          />
-         {/* <CheckboxTask setDataContainer={setDataContainer} task={task} day={day} /> */}
       </div>
    );
 }

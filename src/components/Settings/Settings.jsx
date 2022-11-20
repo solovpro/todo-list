@@ -11,10 +11,10 @@ import s from './Settings.module.scss';
 // Настройки приложения
 function Settings({
    setDarkTheme = () => {
-      console.log('setDarkTheme is null');
+      console.log('setDarkTheme in Settings.jsx is null');
    },
    setSettings = () => {
-      console.log('setSettings is null');
+      console.log('setSettings in Settings.jsx is null');
    },
    darkTheme = true,
 }) {

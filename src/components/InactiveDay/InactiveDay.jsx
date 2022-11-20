@@ -10,7 +10,7 @@ import s from './InactiveDay.module.scss';
 // Закрытый список дня
 function InactiveDay({
    setDataContainer = () => {
-      console.log('setDataContainer is null');
+      console.log('setDataContainer in InactiveDay.jsx is null');
    },
    darkTheme = true,
    day = {},

@@ -6,7 +6,7 @@ import s from './AddButton.module.scss';
 // Кнопка для открытия формы добавления поста
 function AddButton({
    setAddPost = () => {
-      console.log('setAddPost is null');
+      console.log('setAddPost in AddButton.jsx is null');
    },
    darkTheme = true,
 }) {

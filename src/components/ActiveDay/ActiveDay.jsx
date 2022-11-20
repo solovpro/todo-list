@@ -9,7 +9,7 @@ import s from './ActiveDay.module.scss';
 // Открытый день заданий
 function ActiveDay({
    setDataContainer = () => {
-      console.log('setDataContainer is null');
+      console.log('setDataContainer in ActiveDay.jsx is null');
    },
    darkTheme = true,
    day = {},
