@@ -2,7 +2,8 @@
 
 # ToDO List
 
-[![Header](https://github.com/solovpro/todo-list/raw/master/src/assets/img/app-readme.png)](https://solovpro.github.io/todo-list/)
+[![Header](https://github.com/solovpro/todo-list/raw/master/src/assets/img/app-readme-dark.png)](https://solovpro.github.io/todo-list/)
+[![Header](https://github.com/solovpro/todo-list/raw/master/src/assets/img/app-readme-light.png)](https://solovpro.github.io/todo-list/)
 
 ### Небольшое todo приложение с:
 <div align="start">
